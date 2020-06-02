@@ -144,6 +144,7 @@ mod tests {
 		type ExtrinsicBaseWeight = ();
 		type AvailableBlockRatio = AvailableBlockRatio;
 		type MaximumBlockLength = MaximumBlockLength;
+    type MaximumExtrinsicWeight = MaximumBlockWeight;
 		type Version = ();
 		type ModuleToIndex = ();
 		type AccountData = ();

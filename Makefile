@@ -23,9 +23,9 @@ token01:
 		--port 30333 \
 		--ws-port 9944 \
 		--rpc-port 9933 \
-		--telemetry-url 'ws://telemetry.polkadot.io:1024 0' \
 		--validator \
-		--name MyToken01 --unsafe-rpc-expose
+		--name MyToken01 \
+		-l=debug
 
 .PHONY: token02
 token02:
@@ -35,6 +35,5 @@ token02:
 		--port 30334 \
 		--ws-port 9945 \
 		--rpc-port 9934 \
-		--telemetry-url 'ws://telemetry.polkadot.io:1024 0' \
-		--validator \
-		--name MyToken02 --unsafe-rpc-expose
+		--name MyToken02 --unsafe-rpc-expose \
+		-l=debug
